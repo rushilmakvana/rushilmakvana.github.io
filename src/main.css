@@ -1,0 +1,143 @@
+.left-pane {
+  display: flex;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100vh;
+  transition: 0.6s ease;
+}
+.small {
+  transition: 0.6s ease;
+  background-color: rgb(68, 68, 68);
+  width: 55px;
+  color: white;
+}
+.ul {
+  margin-top: 55px;
+  text-align: center;
+}
+.li {
+  cursor: pointer;
+  margin: 35px 0;
+}
+.border {
+  border-left: 3px solid white;
+}
+.links {
+  color: rgb(187, 182, 182);
+}
+.theme {
+  cursor: pointer;
+  margin: 35px 0;
+}
+.links:hover {
+  color: white;
+}
+.files {
+  transition: 0.6s ease;
+  /* display: none; */
+  width: 350px;
+  background-color: rgb(53, 53, 53);
+}
+.text {
+  cursor: pointer;
+  margin-top: 55px;
+  color: white;
+  padding-left: 20px;
+  /* background-color: gray; */
+}
+.about {
+  transition: 0.6s ease;
+  cursor: pointer;
+  color: white;
+  /* margin: px 0; */
+  background-color: rgb(85, 85, 85);
+  padding: 7px 0px 7px 20px;
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+.content {
+  transition: 0.6s ease;
+  white-space: nowrap;
+  font-size: 18px;
+  overflow: scroll;
+  color: white;
+  margin-top: 55px;
+  padding-left: 40px;
+}
+
+.def {
+  color: rgb(94, 209, 255);
+}
+.val {
+  color: rgba(207, 114, 26, 0.952);
+}
+.link {
+  text-decoration: none;
+  color: white;
+}
+@media (max-width: 921px) {
+  .files {
+    width: 400px;
+  }
+  .small {
+    width: 60px;
+  }
+}
+@media (max-width: 810px) {
+  .small {
+    width: 70px;
+  }
+}
+@media (max-width: 785px) {
+  .files {
+    display: none;
+  }
+  .small {
+    width: 60px;
+  }
+}
+@media (max-width: 495px) {
+  .small {
+    width: 70px;
+  }
+}
+@media (max-width: 520px) {
+  .content {
+    font-size: 16px;
+  }
+}
+@media (max-width: 420px) {
+  .small {
+    width: 80px;
+  }
+}
+@media (max-width: 380px) {
+  .small {
+    width: 100px;
+  }
+}
+@media (max-width: 310px) {
+  .small {
+    width: 130px;
+  }
+}
+.div {
+  /* padding: 10px 0; */
+  position: relative;
+  width: 40px;
+  border-radius: 10px;
+  margin: 13px auto;
+  height: 11px;
+  background-color: rgb(131, 131, 131);
+}
+.round {
+  position: absolute;
+  transition: 0.6s ease;
+  margin-top: -4px;
+  /* left: 0; */
+  padding-left: 20px;
+  color: white;
+}
